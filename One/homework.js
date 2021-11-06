@@ -19,14 +19,13 @@ let greeting = 'Hello Visitor';
 let goodBye = 'Thanks for visiting, Respectfully';
 let email = 'DaveWalls329@gmail.com';
 let geoLocation = 'California';
-let textParagraph = `${greeting},\n
-My first name is ${fname} and my last name is ${lname}. My middle name is ${mname} and is the same as my cousin's first name.\n
-I am ${age} years old and my birthday is ${birthday}. Will I go on a walk?: ${goOnWalk}. Will I talk to a friend?: ${!talkToFriend}\n
-The first number is ${numberOne} and the second number is ${numberTwo}. Add them together you get: ${additionResult}.\n
-Subtract those same numbers and you will get: ${subtractionResult}. Multiply the beginning two numbers and you get: ${multiplicationResult}\n
-Divide the same two numbers and you will get: ${divisionResult}. The remainder of 35 divided by ${numberTwo} is ${modResult}.\n
-My email is: ${email} and I live in ${geoLocation}. Again my full name is: ${fullName}.\n
-${goodBye}`;
+let textParagraph = `${greeting}, my first name is ${fname} and my last name is ${lname}. My middle name is ${mname}
+ and it's the same as my cousin's first name.I am ${age} years old and my birthday is ${birthday}. Will I go on a walk?: 
+ ${goOnWalk}. Will I talk to a friend?: ${!talkToFriend} The first number is ${numberOne} and the second number is ${numberTwo}. 
+Add them together you get: ${additionResult}. Subtract those same numbers and you will get: ${subtractionResult}. 
+Multiply the beginning two numbers and you get: ${multiplicationResult}. Divide the same two numbers and you will get: ${divisionResult}.
+The remainder of 35 divided by ${numberTwo} is ${modResult}.My email is: ${email} and I live in ${geoLocation}. 
+Again my full name is: ${fullName}. ${goodBye} ${fullName}.`;
 
 //use doc.write(``) to print each let
 document.write(textParagraph);
